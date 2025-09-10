@@ -634,5 +634,58 @@
     "subject": {
       "reference": "Patient/example-patient"
     }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-f2b2e9cc",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0001",
+          "display": "Agnimandya (impaired digestion)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-MA00",
+          "display": "Impaired digestive function (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "DA64",
+          "display": "Functional dyspepsia (Biomed)"
+        }
+      ],
+      "text": "Agnimandya (impaired digestion)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient 1 "
+    }
   }
 ]

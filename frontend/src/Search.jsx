@@ -466,7 +466,7 @@ export default function Search({ apiKey, savedConditions, setSavedConditions }) 
     setLoadingSearch(true);
     try {
       const res = await fetch(
-        `http://127.0.0.1:8000/terms?q=${encodeURIComponent(q)}`,
+        `http://127.0.0.1:8000/search?q=${encodeURIComponent(q)}`,
         { headers: { "x-api-key": apiKey } }
       );
       if (!res.ok) throw new Error(`Search failed: ${res.status}`);

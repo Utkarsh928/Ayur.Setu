@@ -61,6 +61,61 @@ AI_OVERVIEW_FILE = os.path.join(BASE, "ai_overview.json")
 class DiseaseRequest(BaseModel):
     code: str
     name: str
+    
+@app.get("/search")
+def universal_search(q: str = Query(..., min_length=1), x_api_key: str = Header(None)):
+    """Universal search across NAMASTE, TM2, BIO, and AI overview cache."""
+    check_key(x_api_key)
+    ql = q.lower()
+    results = []
+    # Search NAMASTE
+    results += [
+        {"code": t["code"], "display": t["display"], "system": "NAMASTE"}
+        for t in NAMASTE
+        if ql in t["display"].lower() or ql in t["code"].lower()
+    ]
+    # Search TM2
+    results += [
+        {"code": t["code"], "display": t["display"], "system": "ICD11-TM2"}
+        for t in TM2
+        if ql in t["display"].lower() or ql in t["code"].lower()
+    ]
+    # Search BIO
+    results += [
+        {"code": t["code"], "display": t["display"], "system": "ICD11-BIO"}
+        for t in BIO
+        if ql in t["display"].lower() or ql in t["code"].lower()
+    ]
+    '''# Search AI Overview cache
+    if os.path.exists(AI_OVERVIEW_FILE):
+        try:
+            with open(AI_OVERVIEW_FILE, "r", encoding="utf-8") as f:
+                cache = json.load(f)
+            for code, entry in cache.items():
+                # entry can be multilingual or flat
+                if isinstance(entry, dict) and "summary" in entry:
+                    # flat
+                    if ql in entry.get("name", "").lower() or ql in code.lower():
+                        results.append({
+                            "code": code,
+                            "display": entry.get("name", ""),
+                            "system": "AI-OVERVIEW",
+                            "summary": entry.get("summary", "")
+                        })
+                elif isinstance(entry, dict):
+                    # multilingual
+                    for lang, val in entry.items():
+                        if isinstance(val, dict) and (ql in val.get("name", "").lower() or ql in code.lower()):
+                            results.append({
+                                "code": code,
+                                "display": val.get("name", ""),
+                                "system": f"AI-OVERVIEW-{lang}",
+                                "summary": val.get("summary", "")
+                            })
+        except Exception:
+            pass'''
+    
+    return {"count": len(results[:50]), "items": results[:50]}
 
 def load_data():
     global NAMASTE, TM2, BIO, MAP

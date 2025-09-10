@@ -44,5 +44,26 @@
       "name": "Shwasa (asthma-like)",
       "summary": "श्वास (N-0007) दमा जैसी स्थिति है जिसमें साँस लेने में कठिनाई, सीने में जकड़न और साँस फूलना शामिल है।  यह श्वसन नली की सूजन और संकुचन के कारण होता है।  इलाज में इनहेलर, ब्रोंकोडाइलेटर और अन्य दवाएँ शामिल हो सकती हैं।  गंभीर मामलों में अस्पताल में भर्ती की आवश्यकता हो सकती है।"
     }
+  },
+  "N-0008": {
+    "en": {
+      "code": "N-0008",
+      "name": "Pandu (anemia)",
+      "summary": "Pandu, or anemia, is a condition characterized by a deficiency of red blood cells or hemoglobin, leading to reduced oxygen-carrying capacity of the blood.  Symptoms can include fatigue, pallor, shortness of breath, and weakness.  Diagnosis involves blood tests to assess hemoglobin levels and identify the underlying cause.  Treatment depends on the specific type and severity of anemia."
+    }
+  },
+  "TM2-BL30": {
+    "en": {
+      "code": "TM2-BL30",
+      "name": "Blood deficiency pattern (TM2)",
+      "summary": "Blood deficiency (TM2-BL30) in Traditional Chinese Medicine (TCM) involves insufficient blood volume or quality, resulting in symptoms like pallor, fatigue, dizziness, and palpitations.  It manifests clinically with dry skin, brittle nails, and possibly menstrual irregularities.  Treatment focuses on tonifying blood using herbal remedies and lifestyle adjustments.  Differentiation from other anemias is crucial."
+    }
+  },
+  "N-0001": {
+    "en": {
+      "code": "N-0001",
+      "name": "Agnimandya (impaired digestion)",
+      "summary": "Agnimandya, or impaired digestion, encompasses various gastrointestinal disorders characterized by poor appetite, indigestion, and incomplete food processing.  Symptoms may include bloating, abdominal discomfort, nausea, and altered bowel habits.  Underlying causes are diverse, ranging from dietary factors and lifestyle to specific medical conditions.  Diagnosis requires a thorough clinical evaluation to identify the etiology and implement appropriate management."
+    }
   }
 }
