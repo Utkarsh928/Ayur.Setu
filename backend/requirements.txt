@@ -1,0 +1,19 @@
+# requirements.txt
+
+# Web framework - compatible with Python 3.12
+
+
+fastapi==0.104.1
+
+# ASGI server
+uvicorn[standard]==0.24.0
+
+# Pydantic v2 - latest stable version compatible with Python 3.12
+pydantic==2.8.2
+
+# Optional: if you plan to allow CORS for frontend
+python-multipart==0.0.6
+
+# AI Overview feature dependencies
+google-generativeai==0.3.2
+python-dotenv==1.0.0

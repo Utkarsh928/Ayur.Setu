@@ -1,0 +1,48 @@
+{
+  "N-0009": {
+    "hi": {
+      "code": "N-0009",
+      "name": "ज्वर",
+      "summary": "ज्वर शरीर का असामान्य रूप से उच्च तापमान है, जो संक्रमण, सूजन, या अन्य चिकित्सीय स्थितियों का संकेत हो सकता है।  यह एक लक्षण है, न कि एक रोग, और इसके मूल कारण का पता लगाना महत्वपूर्ण है।  उपचार मूल कारण पर निर्भर करता है, जिसमें एंटीपीयरेटिक्स (जैसे पैरासिटामोल)  शामिल हो सकते हैं।  गंभीर ज्वर के लिए तत्काल चिकित्सा ध्यान आवश्यक है।"
+    },
+    "te": {
+      "code": "N-0009",
+      "name": "Jwara (fever)",
+      "summary": "జ్వరం (జ్వరము) అనేది శరీర ఉష్ణోగ్రత పెరగడం, ఇది అనేక రకాల వ్యాధుల లక్షణం.  ఇది సంక్రమణలు,  ప్రభావితం చేసే వ్యాధులు లేదా ఇతర పరిస్థితుల వలన సంభవించవచ్చు.  జ్వర తీవ్రత, కారణం, మరియు సంబంధిత లక్షణాలను బట్టి చికిత్స మారుతుంది.  నిర్ధారణకు మరియు చికిత్సకు వైద్య నిపుణుల సలహా తీసుకోవడం చాలా ముఖ్యం."
+    },
+    "mr": {
+      "code": "N-0009",
+      "name": "Jwara (fever)",
+      "summary": "ज्वर (N-0009) हा शरीराचे तापमान वाढण्याची स्थिती आहे, जी विविध कारणांमुळे उद्भवू शकते.  सामान्य लक्षणांमध्ये ताप, थंडी आणि शरीरात दुखणे समाविष्ट आहेत.  कारण ओळखण्यासाठी आणि योग्य उपचार करण्यासाठी ताबडतोब वैद्यकीय मदत घेणे आवश्यक आहे.  ज्वराचे निदान आणि उपचार रुग्णाच्या वया, आरोग्याच्या इतिहासाच्या आधारे वेगवेगळे असू शकतात."
+    },
+    "en": {
+      "code": "N-0009",
+      "name": "Jwara (fever)",
+      "summary": "Jwara, or fever, is a nonspecific symptom characterized by an elevated body temperature above the normal range.  It indicates the body's immune response to an underlying infection, inflammation, or other condition.  Diagnosis requires identifying the cause through history, physical examination, and laboratory investigations.  Treatment focuses on managing the underlying cause and alleviating symptoms."
+    }
+  },
+  "J45": {
+    "mr": {
+      "code": "J45",
+      "name": "Asthma (Biomed)",
+      "summary": "अस्थमा हे श्वसनमार्गातील सूज व संकुचन यामुळे होणारी श्वासोच्छवासाची आजार आहे.  हे आजार आकस्मिक श्वासोच्छवासात अडचण, छातीत दाटपणा आणि खोकला यांनी ओळखले जाते.  जीवघेणा असण्याची शक्यता असल्याने त्याची योग्य ती औषधे आणि व्यवस्थापन अत्यंत महत्त्वाचे आहे.  नियमित तपासणी आणि  जीवनशैलीतील बदल यांचा समावेश असलेले व्यवस्थापन उपचारात्मक  आहे."
+    },
+    "en": {
+      "code": "J45",
+      "name": "Asthma (Biomed)",
+      "summary": "Asthma is a chronic respiratory condition characterized by airway inflammation and bronchospasm, leading to recurrent wheezing, coughing, chest tightness, and shortness of breath.  Symptoms vary in severity and frequency.  Management focuses on controlling inflammation and preventing exacerbations through medication and lifestyle modifications.  Severe asthma can be life-threatening."
+    }
+  },
+  "N-0007": {
+    "en": {
+      "code": "N-0007",
+      "name": "Shwasa (asthma-like)",
+      "summary": "Shwasa, also known as asthma-like condition, presents with similar symptoms to asthma: wheezing, coughing, shortness of breath, and chest tightness.  The underlying cause may vary, necessitating a thorough evaluation to differentiate it from true asthma and identify specific triggers or pathologies.  Appropriate management depends on the identified cause and may involve bronchodilators, corticosteroids, or other therapies.  Further investigation is crucial for accurate diagnosis and treatment."
+    },
+    "hi": {
+      "code": "N-0007",
+      "name": "Shwasa (asthma-like)",
+      "summary": "श्वास (N-0007) दमा जैसी स्थिति है जिसमें साँस लेने में कठिनाई, सीने में जकड़न और साँस फूलना शामिल है।  यह श्वसन नली की सूजन और संकुचन के कारण होता है।  इलाज में इनहेलर, ब्रोंकोडाइलेटर और अन्य दवाएँ शामिल हो सकती हैं।  गंभीर मामलों में अस्पताल में भर्ती की आवश्यकता हो सकती है।"
+    }
+  }
+}

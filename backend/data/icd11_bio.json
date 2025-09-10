@@ -1,0 +1,42 @@
+[
+  {
+    "code": "DA64",
+    "display": "Functional dyspepsia (Biomed)"
+  },
+  {
+    "code": "5A11",
+    "display": "Disorder of glucose regulation (Biomed)"
+  },
+  {
+    "code": "J45",
+    "display": "Asthma (Biomed)"
+  },
+  {
+    "code": "D64.9",
+    "display": "Anemia, unspecified (Biomed)"
+  },
+  {
+    "code": "R50",
+    "display": "Fever, unspecified (Biomed)"
+  },
+  {
+    "code": "K64",
+    "display": "Hemorrhoids (Biomed)"
+  },
+  {
+    "code": "E66",
+    "display": "Obesity (Biomed)"
+  },
+  {
+    "code": "M79",
+    "display": "Rheumatic pain (Biomed)"
+  },
+  {
+    "code": "I83",
+    "display": "Varicose veins (Biomed)"
+  },
+  {
+    "code": "H54",
+    "display": "Visual disturbances (Biomed)"
+  }
+]

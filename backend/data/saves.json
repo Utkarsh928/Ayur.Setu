@@ -1,0 +1,638 @@
+[
+  {
+    "resourceType": "Condition",
+    "id": "cond-f27c2908",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-bd53d047",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "text": "Jwara (fevexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxr)",
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "TM2"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Biomed"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/mai hu naaaa"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-a2bb7053",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/mai hu naaaa"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-d39e2b92",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "text": "Jwara (fever)",
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009jhhhhhhhh",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "TM2"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Biomed"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/mai hu naaaa"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-2da8b1b3",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/mai hu naaaal"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-930eb84a",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/kk"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-42bf9a80",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "text": "Shwasa (asthma-like)",
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0007",
+          "display": "Shwasa (asthma-like)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-RSP20",
+          "display": "TM2"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "J45",
+          "display": "Biomed"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/kkhjhjh"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-2a45ffe4",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-050c992e",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0007",
+          "display": "Shwasa (asthma-like)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-RSP20",
+          "display": "Respiratory disorder (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "J45",
+          "display": "Asthma (Biomed)"
+        }
+      ],
+      "text": "Shwasa (asthma-like)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-a714ecef",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "text": "Jwara (fever)",
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "TM2"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Biomed"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-c357c321",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-d48245f1",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
+    }
+  }
+]

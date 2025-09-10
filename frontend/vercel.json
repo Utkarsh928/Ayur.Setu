@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [{ "src": "package.json", "use": "@vercel/static-build" }],
+  "env": {
+    "VITE_API_BASE": "https://medimap-d3qv.onrender.com"
+  },
+  "framework": "vite",
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
+
+

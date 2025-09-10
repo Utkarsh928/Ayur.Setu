@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: ayush-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    rootDir: .
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: FRONTEND_ORIGINS
+        sync: false
+      - key: ABDM_AUTH_URL
+        sync: false
+      - key: ABDM_TOKEN_URL
+        sync: false
+      - key: ABDM_JWKS_URL
+        sync: false
+      - key: ABDM_ISSUER
+        sync: false
+      - key: ABDM_CLIENT_ID
+        sync: false
+      - key: ABDM_CLIENT_SECRET
+        sync: false
+      - key: ABDM_REDIRECT_URI
+        sync: false
+      - key: SESSION_ENC_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+

@@ -1,0 +1,52 @@
+[
+  {
+    "namaste": "N-0001",
+    "tm2": "TM2-MA00",
+    "biomed": "DA64"
+  },
+  {
+    "namaste": "N-0002",
+    "tm2": "TM2-UR10",
+    "biomed": "5A11"
+  },
+  {
+    "namaste": "N-0003",
+    "tm2": "TM2-VT01",
+    "biomed": "M79"
+  },
+  {
+    "namaste": "N-0004",
+    "tm2": "TM2-PT02",
+    "biomed": "R50"
+  },
+  {
+    "namaste": "N-0005",
+    "tm2": "TM2-KP03",
+    "biomed": "I83"
+  },
+  {
+    "namaste": "N-0006",
+    "tm2": "TM2-OB10",
+    "biomed": "E66"
+  },
+  {
+    "namaste": "N-0007",
+    "tm2": "TM2-RSP20",
+    "biomed": "J45"
+  },
+  {
+    "namaste": "N-0008",
+    "tm2": "TM2-BL30",
+    "biomed": "D64.9"
+  },
+  {
+    "namaste": "N-0009",
+    "tm2": "TM2-FV01",
+    "biomed": "R50"
+  },
+  {
+    "namaste": "N-0010",
+    "tm2": "TM2-GI50",
+    "biomed": "K64"
+  }
+]

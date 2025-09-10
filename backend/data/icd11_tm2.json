@@ -1,0 +1,42 @@
+[
+  {
+    "code": "TM2-MA00",
+    "display": "Impaired digestive function (TM2)"
+  },
+  {
+    "code": "TM2-UR10",
+    "display": "Pattern of urinary dysfunction (TM2)"
+  },
+  {
+    "code": "TM2-VT01",
+    "display": "Vata related disorder (TM2)"
+  },
+  {
+    "code": "TM2-PT02",
+    "display": "Pitta related disorder (TM2)"
+  },
+  {
+    "code": "TM2-KP03",
+    "display": "Kapha related disorder (TM2)"
+  },
+  {
+    "code": "TM2-OB10",
+    "display": "Obesity pattern (TM2)"
+  },
+  {
+    "code": "TM2-RSP20",
+    "display": "Respiratory disorder (TM2)"
+  },
+  {
+    "code": "TM2-BL30",
+    "display": "Blood deficiency pattern (TM2)"
+  },
+  {
+    "code": "TM2-FV01",
+    "display": "Fever pattern (TM2)"
+  },
+  {
+    "code": "TM2-GI50",
+    "display": "Surgical/trauma related (TM2)"
+  }
+]
