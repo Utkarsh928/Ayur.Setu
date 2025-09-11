@@ -205,6 +205,7 @@ def make_condition(namaste_code: str, patient_id: str = "example-patient", x_api
     if bio: coding.append({"system":"http://id.who.int/icd/release/11/mms","code": bio["code"],"display": bio.get("display", "Biomed")})
 
     condition = {
+      "name":f"{patient_id}",
       "resourceType":"Condition",
       "id": f"cond-{uuid.uuid4().hex[:8]}",
       "clinicalStatus":{"coding":[{"system":"http://terminology.hl7.org/CodeSystem/condition-clinical","code":"active"}]},

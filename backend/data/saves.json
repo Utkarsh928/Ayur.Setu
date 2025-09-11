@@ -82,7 +82,7 @@
       }
     ],
     "code": {
-      "text": "Jwara (fevexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxr)",
+      "text": "Jwara (fever)",
       "coding": [
         {
           "system": "urn:oid:1.2.356.10000.ayush.namaste",
@@ -792,6 +792,166 @@
     },
     "subject": {
       "reference": "Patient/aka"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-0c262f3b",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
+    }
+  },
+  {
+    "resourceType": "Condition",
+    "id": "cond-92bf4523",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
+    }
+  },
+  {
+    "name": "example-patient",
+    "resourceType": "Condition",
+    "id": "cond-f93ed012",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "code": "problem-list-item"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "urn:oid:1.2.356.10000.ayush.namaste",
+          "code": "N-0009",
+          "display": "Jwara (fever)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "TM2-FV01",
+          "display": "Fever pattern (TM2)"
+        },
+        {
+          "system": "http://id.who.int/icd/release/11/mms",
+          "code": "R50",
+          "display": "Fever, unspecified (Biomed)"
+        }
+      ],
+      "text": "Jwara (fever)"
+    },
+    "subject": {
+      "reference": "Patient/example-patient"
     }
   }
 ]
