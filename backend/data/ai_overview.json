@@ -65,5 +65,12 @@
       "name": "Agnimandya (impaired digestion)",
       "summary": "Agnimandya, or impaired digestion, encompasses various gastrointestinal disorders characterized by poor appetite, indigestion, and incomplete food processing.  Symptoms may include bloating, abdominal discomfort, nausea, and altered bowel habits.  Underlying causes are diverse, ranging from dietary factors and lifestyle to specific medical conditions.  Diagnosis requires a thorough clinical evaluation to identify the etiology and implement appropriate management."
     }
+  },
+  "DA64": {
+    "en": {
+      "code": "DA64",
+      "name": "Functional dyspepsia (Biomed)",
+      "summary": "Functional dyspepsia (FD) is a chronic gastrointestinal disorder characterized by persistent or recurrent upper abdominal pain or discomfort, not explained by structural abnormalities.  Symptoms include bloating, early satiety, and postprandial fullness.  Diagnosis relies on symptom-based criteria excluding organic disease. Treatment focuses on lifestyle modifications and pharmacotherapy, as needed."
+    }
   }
 }

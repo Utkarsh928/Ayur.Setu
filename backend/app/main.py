@@ -383,14 +383,16 @@ def ai_overview_get(
     # Generate with Gemini in requested language
     try:
         prompt = f"""
-        Summarize this medical condition in 3-4 lines for healthcare professionals and general users.
+        Summarize this medical condition in 3-4 lines for healthcare professionals and general users,and providde a datail of it symptoms , causes and treatment, if any prevention is there please include that too.
         Output language code: {lang}
         Code: {code}
         Name: {name}
         Requirements:
+        - Please provide a datail of it symptoms , causes and treatment, if any prevention is there please include that too.
         - Write the entire response in the target language ({lang}).
         - Be concise, clinically accurate, and helpful.
         - Do not include disclaimers or markdown.
+        - 
         """
         model = genai.GenerativeModel("gemini-1.5-flash")
         response = model.generate_content(prompt)
