@@ -1,8 +1,6 @@
 # requirements.txt
 
 # Web framework - compatible with Python 3.12
-
-
 fastapi==0.104.1
 
 # ASGI server
@@ -15,5 +13,13 @@ pydantic==2.8.2
 python-multipart==0.0.6
 
 # AI Overview feature dependencies
-google-generativeai==0.3.2
+google-generativeai==0.8.3
 python-dotenv==1.0.0
+
+# Database
+pymongo==4.6.0
+
+# Auth / Security (used in security.py)
+python-jose[cryptography]==3.3.0
+cryptography==41.0.7
+requests==2.31.0
