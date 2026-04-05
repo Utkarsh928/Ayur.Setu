@@ -1,110 +1,241 @@
+# 🌿 Ayur Setu — आयुर सेतु
 
-# Ayush Dual Coding Starter Repo
+> **Bridging Ayurveda with Modern Medicine using AI**
 
-This starter repo contains a **backend FastAPI** service with sample NAMASTE and ICD data,
-plus endpoints for search, translate, generating a FHIR Condition, and uploading FHIR Bundles.
+Ayur Setu is an AI-powered digital platform that maps traditional Ayurvedic disease codes (NAMASTE) to international medical standards (ICD-11 TM2 & Biomed), enabling AYUSH doctors to manage patients, generate FHIR-compliant records, and get multilingual AI health insights.
 
-## Quick start (backend)
+---
 
-Requirements:
-- Python 3.10+
-- pip
+## ✨ Features
 
-Run (from backend folder):
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
-```
+- 🔍 **Smart Search** — Search NAMASTE, ICD-11 TM2 & Biomed codes instantly with voice support
+- 🤖 **AI Overview** — Gemini AI explains any disease (causes, symptoms, treatment, prevention) in 5 Indian languages
+- 🔊 **Voice Readout** — ElevenLabs TTS reads AI summaries and chatbot replies aloud
+- 🌿 **Ayur Chatbot** — 24/7 AI assistant for doctors and patients
+- 👥 **Patient Management** — Add patients, record diagnosis, treatment advice
+- 📄 **FHIR R4 Records** — Generate ABDM-compliant digital health records
+- 🌐 **Multilingual** — English, Hindi, Bengali, Telugu, Marathi
+- 🌙 **Dark Mode** — Full dark/light theme support
 
-Default API key: `dev-key`. Add header `x-api-key: dev-key` to requests.
+---
 
-Endpoints:
-- GET /health
-- GET /terms?q=...&system=NAMASTE|TM2|BIO  (requires x-api-key)
-- POST /translate?namaste_code=N-0001  (requires x-api-key)
-- POST /problemlist/condition?namaste_code=N-0001&patient_id=PAT-1  (requires x-api-key)
-- POST /bundle  (send a FHIR-like bundle JSON, requires x-api-key)
+## 🛠️ Tech Stack
 
-Data is in `backend/data/`:
-- namaste.csv
-- icd11_tm2.json
-- icd11_bio.json
-- conceptmap.json
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React 18, Vite, Bootstrap 5 |
+| Backend | FastAPI, Python 3.12, Uvicorn |
+| Database | MongoDB Atlas |
+| AI | Google Gemini 2.5 Flash |
+| Voice | ElevenLabs TTS (+ browser fallback) |
+| Standards | NAMASTE, ICD-11, FHIR R4, ABDM |
 
-This is a starter/prototype. Replace API key with OAuth later and persist to a real DB.
+---
 
-# Project Setup and Run Guide
-
-Welcome! This guide will walk you through setting up and running this project's backend (FastAPI) and frontend (React + Vite). Follow these simple steps to get everything up and running smoothly.
-
-## 🟢 Step 1: Run the Backend (FastAPI)
-
-1. Open your terminal or VS Code terminal in the project's root directory.
-
-2. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
-
-3. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Start the FastAPI server:
-   ```bash
-   uvicorn app.main:app --reload
-   ```
-
-✅ **Success!** You should see a message confirming the server is running on `http://127.0.0.1:8000`. Open your browser to `http://127.0.0.1:8000/docs` to access the Swagger UI, where you can test all the API endpoints.
-
-## 🟠 Step 2: Run the Frontend (React + Vite)
-
-1. Open a new terminal window by pressing  *ctrl + Shift +`* in VS code and keep the backend server running in the other.
-
-2. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-
-3. Install the necessary Node.js packages. Make sure you have Node.js installed on your system.
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-✅ **Success!** The terminal will display a local link, typically `http://172.0.0.1:5173`. Open this link in your browser to view the frontend user interface, which is now connected to the backend.
-
-## Prerequisites
-
-- Python 3.7+
-- Node.js (Latest LTS version recommended)
-- Git (for cloning the repository)
-
-## Project Structure
+## 📁 Project Structure
 
 ```
-project-root/
+Ayur-Setu/
 ├── backend/
 │   ├── app/
-│   │   └── main.py
-│   └── requirements.txt
-└── frontend/
-    ├── src/
-    ├── package.json
-    └── vite.config.js
+│   │   ├── main.py          # FastAPI routes + Gemini AI + chatbot
+│   │   ├── auth.py          # ABDM OAuth
+│   │   ├── security.py      # Session encryption, PKCE
+│   │   └── audit.py         # Hash-chained audit log
+│   ├── data/
+│   │   ├── namaste.csv      # NAMASTE disease codes
+│   │   ├── icd11_tm2.json   # ICD-11 TM2 codes
+│   │   ├── icd11_bio.json   # ICD-11 Biomed codes
+│   │   └── conceptmap.json  # NAMASTE → ICD-11 mappings
+│   ├── requirements.txt
+│   ├── start_server.py
+│   └── env.example
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx          # Main app + home page
+│   │   ├── Search.jsx       # Search + AI overview
+│   │   ├── Patients.jsx     # Patient management
+│   │   ├── AyurChat.jsx     # Chatbot
+│   │   ├── translations.js  # Multilingual strings
+│   │   └── hooks/
+│   │       └── useElevenLabs.jsx  # TTS hook
+│   ├── public/
+│   │   ├── bg1.jpg          # Botanical background
+│   │   └── bg2.jpg
+│   └── package.json
+└── README.md
 ```
 
-## Troubleshooting
+---
 
-- If you encounter permission issues on Windows, try running the terminal as administrator
-- Make sure both servers are running simultaneously for full functionality
-- Check that all dependencies are properly installed if you encounter import errors
+## 🚀 Getting Started
 
-# ayush_dualcoding_starter
-# Ayur-Setu
+### Prerequisites
+
+- Python 3.10+
+- Node.js 18+
+- MongoDB Atlas account (free tier works)
+- Google Gemini API key — [Get here](https://aistudio.google.com/app/apikey)
+- ElevenLabs API key (optional) — [Get here](https://elevenlabs.io)
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Utkarsh928/Ayur.Setu.git
+cd Ayur.Setu
+```
+
+---
+
+### 2. Backend Setup
+
+```bash
+cd backend
+```
+
+**Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+**Create your `.env` file:**
+```bash
+cp env.example .env
+```
+
+**Edit `backend/.env` and fill in your values:**
+```env
+API_KEY=your-secure-api-key-here
+
+GEMINI_API_KEY=your_gemini_api_key_here
+
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority
+
+SESSION_ENC_KEY=   # leave blank to auto-generate
+```
+
+**Start the backend:**
+```bash
+python start_server.py
+```
+
+Backend runs at → `http://127.0.0.1:8000`
+
+**Verify it works:**
+```
+http://127.0.0.1:8000/health
+```
+You should see:
+```json
+{"ok": true, "namaste_count": 500, "tm2_count": ..., "bio_count": ...}
+```
+
+---
+
+### 3. Frontend Setup
+
+```bash
+cd frontend
+```
+
+**Install dependencies:**
+```bash
+npm install
+```
+
+**Create `frontend/.env`:**
+```env
+VITE_API_BASE=http://127.0.0.1:8000
+VITE_ELEVENLABS_API_KEY=your_elevenlabs_key_here
+VITE_ELEVENLABS_VOICE_ID=EXAVITQu4vr4xnSDxMaL
+```
+
+> **Note:** ElevenLabs is optional. If not set, the app automatically uses the browser's built-in voice.
+
+**Start the frontend:**
+```bash
+npm run dev
+```
+
+Frontend runs at → `http://localhost:5173`
+
+---
+
+## 🔑 API Keys Guide
+
+| Key | Where to get | Required |
+|-----|-------------|----------|
+| `GEMINI_API_KEY` | [aistudio.google.com](https://aistudio.google.com/app/apikey) | ✅ Yes |
+| `MONGODB_URI` | [mongodb.com/atlas](https://www.mongodb.com/cloud/atlas) | ✅ Yes |
+| `API_KEY` | Any random string you choose | ✅ Yes |
+| `VITE_ELEVENLABS_API_KEY` | [elevenlabs.io](https://elevenlabs.io) | ⚡ Optional |
+
+---
+
+## 🧪 Testing the App
+
+| Feature | How to test |
+|---------|------------|
+| Search | Go to Search tab → type `Shwasa` |
+| AI Overview | Click any NAMASTE result → AI card appears |
+| Voice | Click 🔊 Listen on any AI card or chatbot reply |
+| Chatbot | Click 🌿 button (bottom right) → ask anything |
+| Patients | Go to Patients tab → Add New Patient |
+| FHIR | Search → select result → Save Condition → FHIR tab |
+
+---
+
+## 🌐 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/health` | Health check |
+| GET | `/search?q=shwasa` | Universal search |
+| POST | `/translate?namaste_code=N-0007` | Map NAMASTE → ICD-11 |
+| GET | `/api/ai-overview?code=N-0007&name=Shwasa&lang=en` | AI disease overview |
+| POST | `/chat` | Ayur chatbot |
+| POST | `/patients` | Add/update patient |
+| GET | `/patients` | List all patients |
+| POST | `/problemlist/condition` | Create FHIR Condition |
+| GET | `/saves` | List saved conditions |
+
+---
+
+## 🐳 Docker (Optional)
+
+**Backend:**
+```bash
+cd backend
+docker build -t ayursetu-backend .
+docker run -p 8000:8000 --env-file .env ayursetu-backend
+```
+
+**Frontend:**
+```bash
+cd frontend
+docker build -t ayursetu-frontend .
+docker run -p 5173:5173 ayursetu-frontend
+```
+
+---
+
+## 📜 License
+
+MIT License — free to use, modify and distribute.
+
+---
+
+## 🙏 Built with
+
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Google Gemini](https://ai.google.dev/)
+- [ElevenLabs](https://elevenlabs.io/)
+- [MongoDB Atlas](https://www.mongodb.com/atlas)
+- [React](https://react.dev/)
+- [FHIR R4](https://hl7.org/fhir/)
+
+---
+
+*Ayur Setu — Bridging 5000 years of Ayurvedic wisdom with modern digital healthcare.*
