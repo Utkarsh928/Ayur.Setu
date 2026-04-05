@@ -107,13 +107,13 @@ cp env.example .env
 
 **Edit `backend/.env` and fill in your values:**
 ```env
-API_KEY=your-secure-api-key-here
+API_KEY=ihZJQ51x8Z2bP9GFrSDs9rM28OrtrIQIiaUM1ZXvV5w
 
-GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=AIzaSyA2rGrAlTbNLHqLWTh8rOknFm_rBEk1BOs
 
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://singh13priyanshi_db_user:EyilgRaAV89yUkDh@cluster0.qy3tgla.mongodb.net/
 
-SESSION_ENC_KEY=   # leave blank to auto-generate
+SESSION_ENC_KEY=WpTEc2wvn-DZ5q86MURbyEp0s_LFaH2yxoU0Ae2C_1E=
 ```
 
 **Start the backend:**
@@ -148,11 +148,9 @@ npm install
 **Create `frontend/.env`:**
 ```env
 VITE_API_BASE=http://127.0.0.1:8000
-VITE_ELEVENLABS_API_KEY=your_elevenlabs_key_here
+VITE_ELEVENLABS_API_KEY=sk_92a4928e1e27f6ae717c1502ac6fa1148e4837698d05120d
 VITE_ELEVENLABS_VOICE_ID=EXAVITQu4vr4xnSDxMaL
 ```
-
-> **Note:** ElevenLabs is optional. If not set, the app automatically uses the browser's built-in voice.
 
 **Start the frontend:**
 ```bash
